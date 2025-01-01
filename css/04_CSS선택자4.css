@@ -21,7 +21,7 @@ div[class ^= "class"]{
 
 /* $ : 특정 단어로 끝나면 선택 */
 /* class 속성값이 2로 끝나면 선택 */
-div[class $= "2"]{
+div[class $= "2"]{*
   text-decoration: underline;
 }
 
